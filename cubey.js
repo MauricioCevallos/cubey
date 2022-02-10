@@ -52,7 +52,7 @@ let cubies = []; //list of cubies
 function setup(){
     createCanvas(windowWidth, windowHeight, WEBGL);
     background(0);
-    window.postMessage('hi');
+    window.alert('"Cubey" is a minimalist piece about replicating cubes wherever you choose to go. I really wanted the user being able to move freely in a 3d space and make a new piece of art each time they interacted with Cubey. The goal is to mesmerize the user, to keep them playing with it, like a fidget toy. The user can restart at a click of a button and go off in a new direction if they wanted to, making the art very fleeting. I also wanted it to be eye catching and pop, the reason for the different bright colors for each cube. ');
     const cubey = new cube(0,0,0,false,x,y,z,count);
     cubies.push(cubey);
 } 
